@@ -8,9 +8,12 @@
 </head>
 
 <body>
+    <h3>this is a function</h3>
     <?php
 // include('headerr.php'); 
 require('headerrr.php');
+
+
 
               //2
 function factorial($number) {
