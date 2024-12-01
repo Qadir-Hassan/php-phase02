@@ -8,36 +8,26 @@
 </head>
 
 <body>
-    <h3>this is a function</h3>
-    <p>this is another change</p>
-    <p>login </p>
-    <?php
-// include('headerr.php'); 
-require('headerrr.php');
+
+<?php
+
+    $text = "we are, learning php";
+  
+    //  echo substr_count($text,"are",6);
 
 
 
-              //2
-function factorial($number) {
+     print_r(explode(",", $text ));
 
-    // base case
-       // 1
-    if ($number < 3) {
-         return 1;
-     } else {
-                 // 2  *            //1 
-         return ($number * factorial($number - 1)); 
-    } 			
-} 
-echo factorial(4);
+ 
 
 
 
 
-    // echo $age;
 
-
-    ?>
+?>
 </body>
 
 </html>
+
+
